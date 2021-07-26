@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProjetAndroid2</string>
+    <string name="PrenomTextView">Prenom</string>
+    <string name="EmailTextView">Email</string>
+    <string name="Password">Password</string>
+    <string name="Registerbtn">Insription</string>
+    <string name="usernameTextView">Username</string>
+    <string name="PasswordTextView">Password</string>
+    <string name="btnlogin">Connexion</string>
+    <string name="Login">Login</string>
+    <string name="login">Connexion</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Inscription</string>
+    <string name="NomTextView">Nom</string>
+</resources>

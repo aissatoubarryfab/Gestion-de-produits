@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsProduit"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/nomProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nom" />
+
+    <EditText
+        android:id="@+id/prixProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prix"
+        />
+    <EditText
+        android:id="@+id/quantiteProduit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="quantite"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="232dp"
+        android:layout_height="249dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mod"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:background="#0C2C7C"
+            android:text="Modifier"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/supp"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mod"
+            android:layout_marginTop="55dp"
+            android:background="#0C2C7C"
+            android:text="Supprimer"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</LinearLayout>
